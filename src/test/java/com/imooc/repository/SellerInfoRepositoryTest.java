@@ -1,16 +1,13 @@
 package com.imooc.repository;
 
-import com.imooc.dataobject.SellerInfo;
-import com.imooc.util.KeyUtil;
+import com.sell.dataobject.SellerInfo;
+import com.sell.repository.SellerInfoRepository;
+import com.sell.util.KeyUtil;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
-
-import java.util.List;
-
-import static org.junit.Assert.*;
 
 /**
  * Created by Administrator on 2017/10/4.

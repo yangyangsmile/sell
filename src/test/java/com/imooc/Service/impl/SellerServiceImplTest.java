@@ -1,14 +1,12 @@
 package com.imooc.Service.impl;
 
-import com.imooc.Service.SellerService;
-import com.imooc.dataobject.SellerInfo;
+import com.sell.Service.SellerService;
+import com.sell.dataobject.SellerInfo;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
-
-import static org.junit.Assert.*;
 
 /**
  * Created by Administrator on 2017/10/4.

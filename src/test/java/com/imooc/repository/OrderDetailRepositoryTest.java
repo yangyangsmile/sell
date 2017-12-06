@@ -1,6 +1,7 @@
 package com.imooc.repository;
 
-import com.imooc.dataobject.OrderDetail;
+import com.sell.dataobject.OrderDetail;
+import com.sell.repository.OrderDetailRepository;
 import junit.framework.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -10,8 +11,6 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 import java.math.BigDecimal;
 import java.util.List;
-
-import static org.junit.Assert.*;
 
 /**
  * Created by Administrator on 2017/9/16.

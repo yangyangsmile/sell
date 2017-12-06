@@ -22,4 +22,5 @@ public class LoggerTest {
         logger.info("info");
         logger.error("error");
     }
+
 }

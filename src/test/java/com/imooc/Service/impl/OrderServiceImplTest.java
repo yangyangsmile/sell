@@ -1,8 +1,8 @@
 package com.imooc.Service.impl;
 
-import com.imooc.dataobject.OrderDetail;
-import com.imooc.dto.OrderDTO;
-import com.imooc.enums.OrderStatusEnum;
+import com.sell.Service.impl.OrderServiceImpl;
+import com.sell.dataobject.OrderDetail;
+import com.sell.dto.OrderDTO;
 import junit.framework.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -14,8 +14,6 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 import java.util.ArrayList;
 import java.util.List;
-
-import static org.junit.Assert.*;
 
 /**
  * Created by Administrator on 2017/9/16.

@@ -1,19 +1,16 @@
 package com.imooc.repository;
 
-import com.imooc.dataobject.ProductCategory;
-import junit.framework.Assert;
+import com.sell.dataobject.ProductCategory;
+import com.sell.repository.ProductCategoryRepository;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.data.annotation.Id;
 import org.springframework.test.context.junit4.SpringRunner;
 
 
 import java.util.Arrays;
 import java.util.List;
-
-import static org.junit.Assert.*;
 
 /**
  * Created by Administrator on 2017/9/15.
